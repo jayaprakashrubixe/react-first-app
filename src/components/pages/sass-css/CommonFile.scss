@@ -1,0 +1,87 @@
+$body-background:#F8FBFF;
+$color: #6f7c8a;
+$margin:0px;
+$padding:0px;
+$common-fontsize:24px;
+$textcenter:center;
+$h2tag:36px;
+$p1tag:20px;
+$p2tag:16px;
+$background:#fff;
+$lineheight:28px;
+$commonmargintop:100px;
+
+@mixin h2tag(
+    $fontsize:$h2tag,
+    $color:#3d486a,
+    // $fontfamily:'Poppins',
+    $fontweight:600
+) {
+    font-size: $fontsize;
+    color: $color;
+    // font-family: $fontfamily;
+    font-weight: $fontweight;
+}
+@mixin h2before(
+    $content:"",
+    $position:absolute,
+    $width:130px,
+    $height:50px,
+    $border-radius: 40px,
+    $h2background-color: #f9dfea,
+    $left: 44%,
+    $top: -8%,
+    $z-index: -1,
+    $transform: rotate(150deg)
+) {
+    content: $content;
+    position: $position;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+     background: $h2background-color;
+    left: $left;
+    top: $top;
+    z-index: $z-index;
+    transform: $transform;
+}
+
+@mixin h3tag(
+    $h3tagfont-size: 1.5em,
+    $h3fontweight:600,
+    $h3color:#3d486a
+) {
+    font-size: $h3tagfont-size;
+    font-weight: $h3fontweight;
+    color: $h3color;
+}
+
+@mixin h4tag(
+    $h4font-size: 1.125rem,
+    $h4font-weight: 700
+) {
+    font-size: $h4font-size;
+    font-weight: $h4font-weight;
+}
+@mixin  p1tag (
+    $fontsize-p1tag:$p1tag,
+    $p1color:#6f7c8a,
+    // $p1fontfamily:lato
+){
+   font-size: $fontsize-p1tag;
+   color: $p1color;
+//    font-family: $p1fontfamily;
+}
+@mixin p2tag(
+    $fontsize-p1tag:$p2tag,
+    $p1color:#6f7c8a,
+    // $p1fontfamily:lato,
+    $p2fontsize:$p2tag,
+    $line-height:$lineheight
+) {
+    font-size: $fontsize-p1tag;
+    color: $p1color;
+    // font-family: $p1fontfamily;
+    font-size: $p2fontsize;
+    line-height: $line-height;
+}

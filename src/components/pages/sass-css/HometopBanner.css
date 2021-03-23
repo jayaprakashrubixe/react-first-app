@@ -1,0 +1,78 @@
+.header-area {
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cfd6ff), color-stop(#e1e7ff), to(#f8fbff));
+  background: linear-gradient(to bottom, #cfd6ff, #e1e7ff, #f8fbff);
+}
+
+.header-area::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  background-position: 100% 100%;
+}
+
+.sub-header-area {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  background-position: center;
+}
+
+@media screen and (max-width: 567px) {
+  .sub-header-area {
+    background-position: right;
+  }
+}
+
+.sub-header-area .headertopbanner {
+  margin-top: 85px;
+}
+
+.sub-header-area .headertopbanner h1 {
+  font-size: 2.7rem;
+  color: #3d486a;
+  margin-top: 140px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 567px) {
+  .sub-header-area .headertopbanner h1 {
+    margin-top: 40px;
+    font-size: 39px;
+  }
+}
+
+.sub-header-area .headertopbanner p {
+  font-size: 1.2rem;
+  color: #6f7c8a;
+  padding: 10px 0 20px 0;
+  line-height: 30px;
+}
+
+.sub-header-area .headertopbanner a {
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: normal;
+  padding: 7px 50px 7px 50px;
+  color: #fff;
+  font-size: 1.125em;
+  line-height: 2;
+  background-color: #FF5E8D;
+}
+
+.sub-header-area .headertopbanner a:hover {
+  text-decoration: none;
+}
+
+.sub-header-area .headertopbanner img {
+  width: 100%;
+}
+/*# sourceMappingURL=HometopBanner.css.map */

@@ -1,0 +1,35 @@
+@import 'commonfile';
+.our-address {
+    margin-top: $commonmargintop;
+    h2{
+        @include h2tag;
+    }
+    h2::before{
+        @include h2before;
+    }
+    p{
+        @include p1tag;
+        width: 50%;
+        margin: 45px auto;
+        text-align: $textcenter;
+        @media screen and (max-width:567px) {
+           width: 100%;
+        }
+        @media screen and (min-width:600px) and (max-width:993px) {
+           width: 100%;
+        }
+    }
+    .our-address-details {
+        background:$background;
+        padding: 50px 0 55px 0;
+        box-shadow: 0px 0px 8px 0px grey;
+        h3{
+            @include h3tag;
+        }
+        p{
+            @include p2tag;
+            width: 100%;
+            margin: 2px auto;
+        }
+    }
+}

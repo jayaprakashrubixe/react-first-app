@@ -1,0 +1,136 @@
+footer {
+  position: relative;
+  margin-top: 240px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e3e8ff), to(#f2f6ff));
+  background: linear-gradient(to bottom, #e3e8ff, #f2f6ff);
+}
+
+@media screen and (max-width: 567px) {
+  footer {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  footer {
+    margin-top: 170px;
+  }
+}
+
+footer .footer-step1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  background-position: 100% 100%;
+}
+
+footer .footer-step1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  padding: 130px 0px 26px 0px;
+}
+
+footer .footer-section-row {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 567px) {
+  footer .footer-section-row {
+    margin-top: 30px;
+  }
+}
+
+footer .footer-section-row img {
+  width: 30%;
+}
+
+@media screen and (max-width: 567px) {
+  footer .footer-section-row img {
+    width: 60%;
+  }
+}
+
+footer .footer-section-row ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer .footer-section-row ul li {
+  padding: 6px 0px 6px 0px;
+}
+
+footer .footer-section-row ul a {
+  text-decoration: none;
+  color: #6f7c8a;
+}
+
+footer .footer-section-row .social-icons {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer .footer-section-row .social-icons li {
+  display: inline-block;
+  background: #c8cfe7;
+  padding: 10px;
+  border-radius: 30px;
+  line-height: 17px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  footer .footer-section-row .social-icons li {
+    margin-right: 13px;
+  }
+}
+
+footer .footer-section-row .social-icons a .svg-inline--fa.fa-w-10 {
+  width: 17px;
+}
+
+footer .topscrolling {
+  display: block;
+}
+
+footer .topscrolling li {
+  list-style-type: none;
+  background: #ff5e8d;
+  padding: 10px 14px 10px 14px;
+  border-radius: 25px;
+  line-height: 27px;
+  -webkit-box-shadow: 0px 0px 8px 0px grey;
+          box-shadow: 0px 0px 8px 0px grey;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+
+footer .topscrolling li a {
+  color: #fff;
+  font-size: 24px;
+}
+
+footer .topscroll__none {
+  display: none;
+}
+
+footer hr {
+  margin-top: 50px;
+}
+
+footer .all-reserved-ptag {
+  margin-top: 40px;
+  color: #6f7c8a;
+  font-size: 0.875rem;
+}
+/*# sourceMappingURL=Footer.css.map */

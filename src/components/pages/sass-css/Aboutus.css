@@ -1,0 +1,68 @@
+.section-margintop {
+  margin-top: 100px;
+}
+
+.section-margintop h2 {
+  font-size: 45px;
+  color: #3d486a;
+  font-weight: 700;
+}
+
+.section-margintop p {
+  font-size: 20px;
+  color: #6f7c8a;
+}
+
+.section-margintop .whychoose-us {
+  font-size: 36px;
+  color: #3d486a;
+  font-weight: 600;
+}
+
+.section-margintop .whychoose-us::before {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  border-radius: 40px;
+  background: #f9dfea;
+  left: 44%;
+  top: -8%;
+  z-index: -1;
+  -webkit-transform: rotate(150deg);
+          transform: rotate(150deg);
+  background-color: #f9dfea;
+}
+
+.section-margintop .ptag {
+  font-size: 20px;
+  color: #6f7c8a;
+  width: 60%;
+  margin: 45px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 567px) {
+  .section-margintop .ptag {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  .section-margintop .ptag {
+    width: 100%;
+  }
+}
+
+.section-margintop .why-tags h4 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.section-margintop .why-tags p {
+  font-size: 16px;
+  color: #6f7c8a;
+  font-size: 16px;
+  line-height: 28px;
+}
+/*# sourceMappingURL=Aboutus.css.map */

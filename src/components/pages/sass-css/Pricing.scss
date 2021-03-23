@@ -1,0 +1,89 @@
+@import 'commonfile';
+
+.best-pricing {
+    margin-top: $commonmargintop;
+    h2{
+        @include h2tag;
+    }
+    h2::before{
+        @include h2before;
+    }
+    p{
+        @include p1tag;
+        width: 60%;
+        margin: 45px auto;
+        text-align: $textcenter;
+        @media screen and (max-width:567px) {
+           width: 100%;
+        }
+        @media screen and (min-width:600px) and (max-width:993px) {
+           width: 100%;
+        }
+    }
+    .pricing-card {
+        background:$background;
+        padding: 0 0 75px 0;
+        transition: all .5s;
+        box-shadow: 0px 0px 8px 0px grey;
+
+        h3{
+        border-bottom: 1px solid #e6edf7;
+        font-size: 1.875em;
+        padding: 40px 0;
+        color: #3d486a;
+        font-weight: bold;
+        }
+        p{
+            @include p2tag;
+            width: 100%;
+            margin: 10px auto;
+            .span1 {
+                vertical-align: top;
+                font-size: 30px;
+                font-weight: 400;
+            }
+            .span2{
+                font-size: 4em;
+                line-height: 70px;
+                color: #3d486a;
+            }
+        }
+        a {
+            color: #fff;
+            background-color: #FF5E8D;
+            border-radius: 25px;
+            padding: 8px 40px 8px 40px;
+            margin-top: 25px;
+        }
+    }
+    .pricing-card:hover {
+        transform: translateY(-8px);
+    z-index: 8;
+    }
+    
+}
+
+.accordin-quesitions {
+    margin-top: $commonmargintop;
+    h2{
+        @include h2tag;
+        width: 45%;
+        margin: 0 auto;
+    }
+    h2::before {
+        @include h2before;
+    }
+    p{
+        @include p1tag;
+        width: 50%;
+        margin: 45px auto;
+        text-align: $textcenter;
+        @media screen and (max-width:567px) {
+           width: 100%;
+        }
+        @media screen and (min-width:600px) and (max-width:993px) {
+           width: 100%;
+        }
+    }
+}
+

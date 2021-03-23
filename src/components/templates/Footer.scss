@@ -1,0 +1,106 @@
+footer {
+  position: relative;
+  margin-top: 240px;
+  background: linear-gradient(to bottom, #e3e8ff, #f2f6ff);
+  @media screen and (max-width: 567px) {
+    margin-top: 30px;
+  }
+  @media screen and (min-width:600px) and (max-width:993px) {
+    margin-top: 170px;
+  }
+  .footer-step1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    background-position: 100% 100%;
+  }
+  .footer-step1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    padding: 130px 0px 26px 0px;
+  }
+  .footer-section-row {
+    margin-top: 100px;
+    @media screen and (max-width: 567px) {
+      margin-top: 30px;
+    }
+    img {
+      width: 30%;
+
+      @media screen and (max-width: 567px) {
+        width: 60%;
+      }
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li {
+        padding: 6px 0px 6px 0px;
+      }
+      a {
+        text-decoration: none;
+        color: #6f7c8a;
+      }
+    }
+    .social-icons {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li {
+        display: inline-block;
+        background: #c8cfe7;
+        padding: 10px;
+        border-radius: 30px;
+        line-height: 17px;
+        margin-right: 16px;
+        margin-bottom: 8px;
+        @media screen and (min-width:600px) and (max-width:993px) {
+          margin-right: 13px;
+        }
+      }
+      a {
+        .svg-inline--fa.fa-w-10 {
+          width: 17px;
+        }
+      }
+    }
+  }
+  .topscrolling {
+    display: block;
+    li {
+      list-style-type: none;
+      //   float: right;
+      background: #ff5e8d;
+      padding: 10px 14px 10px 14px;
+      border-radius: 25px;
+      line-height: 27px;
+      box-shadow: 0px 0px 8px 0px grey;
+      position: fixed;
+      bottom: 100px;
+      right: 100px;
+      a {
+        color: #fff;
+        font-size: 24px;
+      }
+    }
+  }
+  .topscroll__none {
+    display: none;
+  }
+  hr {
+    margin-top: 50px;
+  }
+  .all-reserved-ptag {
+    margin-top: 40px;
+    color: #6f7c8a;
+    font-size: 0.875rem;
+  }
+}
