@@ -48,6 +48,19 @@
   }
 }
 
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  .sub-header-area .headertopbanner h1 {
+    margin-top: 0px;
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 994px) and (max-width: 1200px) {
+  .sub-header-area .headertopbanner h1 {
+    margin-top: 0px;
+  }
+}
+
 .sub-header-area .headertopbanner p {
   font-size: 1.2rem;
   color: #6f7c8a;

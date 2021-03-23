@@ -4,6 +4,9 @@
     margin-top: $commonmargintop;
     h2 {
         @include h2tag($fontsize:45px,$fontweight:700);
+        @media screen and (min-width:600px) and (max-width:993px){
+            @include h2tag($fontsize:29px);
+        }
     }
     p{
         @include p1tag;

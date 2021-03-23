@@ -115,6 +115,13 @@ footer .topscrolling li {
   right: 100px;
 }
 
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  footer .topscrolling li {
+    bottom: 100px;
+    right: 10px;
+  }
+}
+
 footer .topscrolling li a {
   color: #fff;
   font-size: 24px;

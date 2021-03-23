@@ -35,6 +35,13 @@
                 margin-top: 40px;
                 font-size: 39px;
             }
+            @media screen and (min-width:600px) and (max-width:993px) {
+                margin-top: 0px;
+                font-size: 2.2rem;
+            }
+            @media screen and (min-width:994px) and (max-width:1200px) {
+                margin-top: 0px;
+            }
         }
         p{
             font-size: 1.2rem;

@@ -94,6 +94,12 @@
   border-radius: 50%;
 }
 
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  .sub-more-features .meeteamdetails img {
+    width: 70% !important;
+  }
+}
+
 .sub-more-features .meeteamdetails h3 {
   font-size: 1.2rem;
   font-weight: 600;
