@@ -1,0 +1,66 @@
+.our-address {
+  margin-top: 100px;
+}
+
+.our-address h2 {
+  font-size: 36px;
+  color: #3d486a;
+  font-weight: 600;
+}
+
+.our-address h2::before {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  border-radius: 40px;
+  background: #f9dfea;
+  left: 44%;
+  top: -8%;
+  z-index: -1;
+  -webkit-transform: rotate(150deg);
+          transform: rotate(150deg);
+}
+
+.our-address p {
+  font-size: 20px;
+  color: #6f7c8a;
+  width: 50%;
+  margin: 45px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 567px) {
+  .our-address p {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  .our-address p {
+    width: 100%;
+  }
+}
+
+.our-address .our-address-details {
+  background: #fff;
+  padding: 50px 0 55px 0;
+  -webkit-box-shadow: 0px 0px 8px 0px grey;
+          box-shadow: 0px 0px 8px 0px grey;
+}
+
+.our-address .our-address-details h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #3d486a;
+}
+
+.our-address .our-address-details p {
+  font-size: 16px;
+  color: #6f7c8a;
+  font-size: 16px;
+  line-height: 28px;
+  width: 100%;
+  margin: 2px auto;
+}
+/*# sourceMappingURL=Contactus.css.map */

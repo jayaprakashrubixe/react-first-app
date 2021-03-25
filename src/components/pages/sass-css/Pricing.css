@@ -1,0 +1,142 @@
+.best-pricing {
+  margin-top: 100px;
+}
+
+.best-pricing h2 {
+  font-size: 36px;
+  color: #3d486a;
+  font-weight: 600;
+}
+
+.best-pricing h2::before {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  border-radius: 40px;
+  background: #f9dfea;
+  left: 44%;
+  top: -8%;
+  z-index: -1;
+  -webkit-transform: rotate(150deg);
+          transform: rotate(150deg);
+}
+
+.best-pricing p {
+  font-size: 20px;
+  color: #6f7c8a;
+  width: 60%;
+  margin: 45px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 567px) {
+  .best-pricing p {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  .best-pricing p {
+    width: 100%;
+  }
+}
+
+.best-pricing .pricing-card {
+  background: #fff;
+  padding: 0 0 75px 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-box-shadow: 0px 0px 8px 0px grey;
+          box-shadow: 0px 0px 8px 0px grey;
+}
+
+.best-pricing .pricing-card h3 {
+  border-bottom: 1px solid #e6edf7;
+  font-size: 1.875em;
+  padding: 40px 0;
+  color: #3d486a;
+  font-weight: bold;
+}
+
+.best-pricing .pricing-card p {
+  font-size: 16px;
+  color: #6f7c8a;
+  font-size: 16px;
+  line-height: 28px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.best-pricing .pricing-card p .span1 {
+  vertical-align: top;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.best-pricing .pricing-card p .span2 {
+  font-size: 4em;
+  line-height: 70px;
+  color: #3d486a;
+}
+
+.best-pricing .pricing-card a {
+  color: #fff;
+  background-color: #FF5E8D;
+  border-radius: 25px;
+  padding: 8px 40px 8px 40px;
+  margin-top: 25px;
+}
+
+.best-pricing .pricing-card:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+  z-index: 8;
+}
+
+.accordin-quesitions {
+  margin-top: 100px;
+}
+
+.accordin-quesitions h2 {
+  font-size: 36px;
+  color: #3d486a;
+  font-weight: 600;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.accordin-quesitions h2::before {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  border-radius: 40px;
+  background: #f9dfea;
+  left: 44%;
+  top: -8%;
+  z-index: -1;
+  -webkit-transform: rotate(150deg);
+          transform: rotate(150deg);
+}
+
+.accordin-quesitions p {
+  font-size: 20px;
+  color: #6f7c8a;
+  width: 50%;
+  margin: 45px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 567px) {
+  .accordin-quesitions p {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  .accordin-quesitions p {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Pricing.css.map */

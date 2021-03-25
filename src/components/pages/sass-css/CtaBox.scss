@@ -1,0 +1,26 @@
+@import "commonfile";
+.section-ctabox {
+  background: $background;
+  padding: 100px 20px 100px 80px;
+  margin-top: -230px;
+  @media screen and (max-width: 567px) {
+    padding: 50px 30px 50px 30px;
+    text-align: $textcenter;
+    margin-top: -90px;
+  }
+  h2 {
+    @include h2tag;
+    font-size: 1.8755em;
+    @media screen and (max-width: 567px) {
+      font-size: 23px;
+    }
+  }
+  button {
+    color: #fff;
+    background-color: #ff5e8d;
+    border: none;
+    padding: 7px 50px 7px 50px;
+    font-size: 1.125em;
+    border-radius: 25px;
+  }
+}

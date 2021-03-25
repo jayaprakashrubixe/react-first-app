@@ -1,0 +1,29 @@
+
+@import 'commonfile';
+
+
+.company-log-section {
+    margin-top: 100px;
+    h4 {
+        font-size: $p1tag;
+        color: $color;
+        font-weight: normal;
+    }
+    .logos-flex {
+        display: flex;
+        align-items: flex-end;
+        text-align: $textcenter;
+        .cmpylogos {
+         @media screen and (max-width:567px) {
+            width: 100%;
+         }
+         @media screen and (min-width:600px) and (max-width:993px) {
+            width: 100%;
+         }
+         @media screen and (min-width:994px) and (max-width:1200px) {
+            width: 100%;
+         }
+        }
+    }
+   
+}

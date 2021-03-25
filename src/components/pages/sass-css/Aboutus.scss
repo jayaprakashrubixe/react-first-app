@@ -1,0 +1,42 @@
+@import 'commonfile';
+
+.section-margintop {
+    margin-top: $commonmargintop;
+    h2 {
+        @include h2tag($fontsize:45px,$fontweight:700);
+        @media screen and (min-width:600px) and (max-width:993px){
+            @include h2tag($fontsize:29px);
+        }
+    }
+    p{
+        @include p1tag;
+    }
+    .whychoose-us {
+        @include h2tag;
+    }
+    .whychoose-us::before {
+        @include h2before;
+        background-color: #f9dfea;
+    }
+    .ptag {
+        @include p1tag;
+        width: 60%;
+        margin: 45px auto;
+        text-align: $textcenter;
+        @media screen and (max-width:567px) {
+           width: 100%;
+        }
+        @media screen and (min-width:600px) and (max-width:993px) {
+           width: 100%;
+        }
+    }
+    .why-tags {
+        h4 {
+            @include h4tag;
+        }
+        p{
+            @include p2tag;
+        }
+    }
+
+}

@@ -1,0 +1,38 @@
+.company-log-section {
+  margin-top: 100px;
+}
+
+.company-log-section h4 {
+  font-size: 20px;
+  color: #6f7c8a;
+  font-weight: normal;
+}
+
+.company-log-section .logos-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+}
+
+@media screen and (max-width: 567px) {
+  .company-log-section .logos-flex .cmpylogos {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 993px) {
+  .company-log-section .logos-flex .cmpylogos {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 994px) and (max-width: 1200px) {
+  .company-log-section .logos-flex .cmpylogos {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=CompanyLogoSection.css.map */

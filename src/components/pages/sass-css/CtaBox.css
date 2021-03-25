@@ -1,0 +1,36 @@
+.section-ctabox {
+  background: #fff;
+  padding: 100px 20px 100px 80px;
+  margin-top: -230px;
+}
+
+@media screen and (max-width: 567px) {
+  .section-ctabox {
+    padding: 50px 30px 50px 30px;
+    text-align: center;
+    margin-top: -90px;
+  }
+}
+
+.section-ctabox h2 {
+  font-size: 36px;
+  color: #3d486a;
+  font-weight: 600;
+  font-size: 1.8755em;
+}
+
+@media screen and (max-width: 567px) {
+  .section-ctabox h2 {
+    font-size: 23px;
+  }
+}
+
+.section-ctabox button {
+  color: #fff;
+  background-color: #ff5e8d;
+  border: none;
+  padding: 7px 50px 7px 50px;
+  font-size: 1.125em;
+  border-radius: 25px;
+}
+/*# sourceMappingURL=CtaBox.css.map */
