@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02beb46e.chunk.css",
+    "main.js": "/static/js/main.f9990da2.chunk.js",
+    "main.js.map": "/static/js/main.f9990da2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d94c7333.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d94c7333.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.23ee5763.chunk.js": "/static/js/2.23ee5763.chunk.js",
+    "static/js/2.23ee5763.chunk.js.map": "/static/js/2.23ee5763.chunk.js.map",
+    "static/js/3.c37f813d.chunk.js": "/static/js/3.c37f813d.chunk.js",
+    "static/js/3.c37f813d.chunk.js.map": "/static/js/3.c37f813d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.02beb46e.chunk.css.map": "/static/css/main.02beb46e.chunk.css.map",
+    "static/js/2.23ee5763.chunk.js.LICENSE.txt": "/static/js/2.23ee5763.chunk.js.LICENSE.txt",
+    "static/media/client-a.2b1dfdd2.jpg": "/static/media/client-a.2b1dfdd2.jpg",
+    "static/media/easy-config.4a510524.png": "/static/media/easy-config.4a510524.png",
+    "static/media/gcredo-logo.2ae36024.png": "/static/media/gcredo-logo.2ae36024.png",
+    "static/media/header.28a2f684.png": "/static/media/header.28a2f684.png",
+    "static/media/partner-a.cf21ff5a.png": "/static/media/partner-a.cf21ff5a.png",
+    "static/media/partner-b.b03ef397.png": "/static/media/partner-b.b03ef397.png",
+    "static/media/partner-c.68ad3549.png": "/static/media/partner-c.68ad3549.png",
+    "static/media/partner-d.8be110e1.png": "/static/media/partner-d.8be110e1.png",
+    "static/media/shape-anew.efbbab52.png": "/static/media/shape-anew.efbbab52.png",
+    "static/media/shape-d.c8bfcd00.svg": "/static/media/shape-d.c8bfcd00.svg",
+    "static/media/team-a-lg.9df219d5.jpg": "/static/media/team-a-lg.9df219d5.jpg",
+    "static/media/team-b-lg.0ce66777.jpg": "/static/media/team-b-lg.0ce66777.jpg",
+    "static/media/team-c-lg.cdca5885.jpg": "/static/media/team-c-lg.cdca5885.jpg",
+    "static/media/team-d-lg.36e4604c.jpg": "/static/media/team-d-lg.36e4604c.jpg",
+    "static/media/tools.11218416.png": "/static/media/tools.11218416.png",
+    "static/media/why-icon-a.5a117d85.png": "/static/media/why-icon-a.5a117d85.png",
+    "static/media/why-icon-b.b0c4edeb.png": "/static/media/why-icon-b.b0c4edeb.png",
+    "static/media/why-icon-c.dadbdf9a.png": "/static/media/why-icon-c.dadbdf9a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d94c7333.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.23ee5763.chunk.js",
+    "static/css/main.02beb46e.chunk.css",
+    "static/js/main.f9990da2.chunk.js"
+  ]
+}
