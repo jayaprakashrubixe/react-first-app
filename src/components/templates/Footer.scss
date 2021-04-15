@@ -86,10 +86,14 @@ footer {
       position: fixed;
       bottom: 100px;
       right: 100px;
+      @media screen and (max-width:567px) {
+        right: 20px;
+      }
       @media screen and (min-width:600px) and (max-width:993px) {
         bottom: 100px;
         right: 10px;
       }
+     
       a {
         color: #fff;
         font-size: 24px;
