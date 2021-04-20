@@ -16,41 +16,41 @@ function MoreFeatures() {
             <div className="sub-more-features">
                 <div className="container">
                     <div className="row">
-                        <h2 className="col-md-12 text-center">More features</h2>
+                        <h2 className="col-md-12 text-center">More Features</h2>
                     </div>
                     <div className="row">
-                        <div className="col-md-12">
-                            <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                        <div className="col-md-12 pb-4">
+                            {/* <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p> */}
                         </div>
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="features-details">
                                 <img src={Imag1} alt="image not display" />
-                                <h4 className="mt-4">Source Data</h4>
-                                <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                <h4 className="mt-4">Globally Recognised</h4>
+                                <p>Our credentialing system is recognised on a global platform.</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="features-details">
                                 <img src={Imag2} alt="image not display" />
-                                <h4 className="mt-4">Source Data</h4>
-                                <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                <h4 className="mt-4">24*7 Support</h4>
+                                <p>We provide 24*7 support for addressing possible queries and issues regarding credentialing, and exam assessments. </p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="features-details">
                                 <img src={Imag3} alt="image not display" />
-                                <h4 className="mt-4">Source Data</h4>
-                                <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                <h4 className="mt-4">Wide range of certifications</h4>
+                                <p>We have a wide range of accreditation bodies to choose from, providing certifications in different domains. </p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="features-details">
                                 <img src={Imag4} alt="image not display" />
-                                <h4 className="mt-4">Source Data</h4>
-                                <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                <h4 className="mt-4">Dedicated Team</h4>
+                                <p>We have a dedicated team to guide you through the credentialing framework. </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 mt-4">
+                        {/* <div className="col-lg-3 col-md-4 mt-4">
                             <div className="features-details">
                                 <img src={Imag5} alt="image not display" />
                                 <h4 className="mt-4">Source Data</h4>
@@ -77,7 +77,7 @@ function MoreFeatures() {
                                 <h4 className="mt-4">Source Data</h4>
                                 <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

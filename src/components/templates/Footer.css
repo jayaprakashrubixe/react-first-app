@@ -1,6 +1,6 @@
 footer {
   position: relative;
-  margin-top: 240px;
+  margin-top: 100px;
   background: -webkit-gradient(linear, left top, left bottom, from(#e3e8ff), to(#f2f6ff));
   background: linear-gradient(to bottom, #e3e8ff, #f2f6ff);
 }

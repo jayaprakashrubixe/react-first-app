@@ -12,47 +12,47 @@ import Wimg5 from '../../assets/images/tools.png';
 
 function Home() {
     const data = {
-        h2: 'Build your page with XIOM Template',
-        p: 'Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.'
+        h2: 'Global Credentialing Office (GCREDO)',
+        p: 'We are a global credentialing organisation that acts as an agent between the certification bodies and the training institutes. We provide a structured mechanism to enhance the credentialing industry, by establishing standards in the administration of exams.'
     };
     return (
         <>
             <HometopBanner data={data} />
-            <CompanyLogoSection />
+            {/* <CompanyLogoSection /> */}
 
             <div className="why-choose-this">
                 <div className="container">
                     <div className="row mt-4 pb-4">
-                        <h2 className="col-md-12 text-center">Why choose this?</h2>
+                        <h2 className="col-md-12 text-center pb-4">Why choose GCREDO?</h2>
                         <div className="col-md-12">
-                            <p className="text-center">Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                            {/* <p className="text-center">Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p> */}
                         </div>
                         <div className="col-md-4 col-sm-12 col-12 mt-4">
                             <div className="whychoose-box">
                                 <img src={Wimg1} alt="image not display" className="whychoose-boxicon" />
-                                <h3>Effortless Integration</h3>
-                                <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                <h3>Quality in service</h3>
+                                <p>We, as an organisation aimed at administering exams and assessments, act as an agent between the institute and the certification body, strive for quality. </p>
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-12 col-12 mt-4">
                             <div className="whychoose-box">
                                 <img src={Wimg2} alt="image not display" className="whychoose-boxicon" />
-                                <h3>Fast & optimized</h3>
-                                <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                <h3>E-certificate</h3>
+                                <p>Obtain an electronic certificate after the completion of the exams. </p>
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-12 col-12 mt-4">
                             <div className="whychoose-box">
                                 <img src={Wimg3} alt="image not display" className="whychoose-boxicon" />
-                                <h3>Open platform</h3>
-                                <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                <h3>Higher response rate</h3>
+                                <p>Our Customer Support helps in providing speedy solutions to your queries and problems.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="config">
+            {/* <div className="config">
                 <div className="config-shape">
                     <svg x="0px" y="0px" viewBox="0 0 750.6 859">
                         <g fill="#F8FBFF">
@@ -83,10 +83,10 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <MoreFeatures />
-            <Testimonial />
+            {/* <Testimonial /> */}
 
         </>
     )

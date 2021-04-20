@@ -13,7 +13,7 @@ function HometopBanner(props) {
                             <div className="col-md-5 headertopbanner">
                                 <h1>{props.data.h2}</h1>
                                 <p>{props.data.p}</p>
-                                <a href="#">Start trial</a>
+                                {/* <a href="#">Start trial</a> */}
                             </div>
                             <div className="col-md-1"></div>
                             <div className="col-md-6 headertopbanner">

@@ -37,7 +37,7 @@ function Footer() {
         <>
             <footer>
                 <div className="footer-step1" style={{ backgroundImage: `url(${Bgimg})` }}></div>
-                <CtaBox />
+                {/* <CtaBox /> */}
                 <div className="container">
                     <div className="row footer-section-row">
                         <div className="col-md-3 col-sm-6 col-6 mt-4">
