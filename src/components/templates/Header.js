@@ -9,20 +9,20 @@ import Logo from '../../assets/images/gcredo-logo.png';
 function Header() {
     const [header, setHeader] = useState(false);
 
-     function handleScroll(){
-        if(window.scrollY > 150){
+    function handleScroll() {
+        if (window.scrollY > 150) {
             setHeader(true);
         }
-        else{
+        else {
             setHeader(false)
         }
     }
 
-    window.addEventListener('scroll',handleScroll)
-   
+    window.addEventListener('scroll', handleScroll)
+
     return (
         <>
-            <header  className={header ? 'header active' : 'header'}>
+            <header className={header ? 'header active' : 'header'}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
@@ -38,12 +38,12 @@ function Header() {
                                 <li>
                                     <Link to="/aboutus">Aboutus</Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link to="/features">Features</Link>
                                 </li>
                                 <li>
                                     <Link to="/pricing">Pricing</Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link to="/contactus">Contactus</Link>
                                 </li>
@@ -51,7 +51,7 @@ function Header() {
                         </div>
                     </div>
                 </div>
-                
+
             </header>
         </>
     )

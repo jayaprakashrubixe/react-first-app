@@ -54,12 +54,12 @@ function Footer() {
                                 <li>
                                     <Link to="/contactus">Contactus</Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link to="/features">Features</Link>
                                 </li>
                                 <li>
                                     <Link to="/pricing">Pricing</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div className="col-md-3 col-sm-6 col-6 mt-4">
@@ -79,20 +79,14 @@ function Footer() {
                             </ul>
                         </div>
                         <div className="col-md-3 col-sm-6 col-6 mt-4">
-                            <ul>
-                                <li>
-                                    <Link to="/">+(012) 123 456</Link>
-                                </li>
-                                <li>
-                                    <Link to="/aboutus">info@yourmail.com</Link>
-                                </li>
-                                <li>
-                                    <Link to="/contactus">West anderson court 32</Link>
-                                </li>
-                                <li>
-                                    <Link to="/blog">London , UK</Link>
-                                </li>
-                            </ul>
+                            {/* <ul>
+                                <li>Novel Tech Center,</li>
+                                <li>Kudlu Gate,</li>
+                                <li>Bangalore</li>
+                            </ul> */}
+                            <p>Novel Tech Center,</p>
+                            <p>Kudlu Gate,</p>
+                            <p>Bangalore</p>
                             <ul className="social-icons mt-2">
                                 <li>
                                     <Link to="">

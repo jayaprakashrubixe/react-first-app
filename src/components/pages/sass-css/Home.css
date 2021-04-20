@@ -76,7 +76,13 @@
 
 @media screen and (min-width: 600px) and (max-width: 993px) {
   .why-choose-this .whychoose-box {
-    height: 430px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .why-choose-this .whychoose-box {
+    height: auto;
   }
 }
 
