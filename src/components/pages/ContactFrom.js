@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './sass-css/ContactFrom.css';
+import axios from "axios";
 const initialState = {
     name: "",
     email: "",
@@ -58,15 +59,38 @@ class ContactFrom extends Component {
 
     handleSubmit = event => {
         event.preventDefault();
+        this.setState({ status: "Sending" });
+        axios({
+            method: "POST",
+            url: "https://d43fc64e4805.ngrok.io/contact_form",
+            data: this.state,
+        }).then((response) => {
+
+            if (response.data.status === "sent") {
+                this.setState({ name: "", email: "", message: "", number: "", subject: "", status: "Submit" });
+                alert("Message sucess");
+            }
+            // else if (response.data.status === "failed") {
+            //     alert("Message Failed");
+            // }
+        }).catch((error) => {
+            console.log(error);
+        });
+
         const isValid = this.validate();
         if (isValid) {
             // clear form
             this.setState(initialState);
         }
     };
+
+
+
+
     render() {
         return (
             <>
+
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3"></div>
