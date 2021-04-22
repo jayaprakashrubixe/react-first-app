@@ -73,7 +73,7 @@ function Footer() {
                                 </li>
 
                                 <li>
-                                    <Link to="/blog">Support</Link>
+                                    <Link to="/404">Support</Link>
                                 </li>
                             </ul>
                         </div>
