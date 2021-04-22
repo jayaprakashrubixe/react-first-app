@@ -6,6 +6,7 @@ import Features from '../pages/Features';
 import Home from '../pages/Home';
 import Pricing from '../pages/Pricing';
 import PrivacyPolicy from '../pages/PrivacyPolicy';
+import RefundPolicy from '../pages/RefundPolicy';
 function Routers() {
 
     return (
@@ -18,6 +19,7 @@ function Routers() {
                 <Route path="/features" component={Features}></Route>
                 <Route path='/pricing' component={Pricing}></Route>
                 <Route path="/privacypolicy" component={PrivacyPolicy}></Route>
+                <Route path="/refundpolicy" component={RefundPolicy}></Route>
             </Switch>
         </>
     )

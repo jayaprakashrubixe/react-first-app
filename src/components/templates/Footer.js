@@ -64,11 +64,12 @@ function Footer() {
                         </div>
                         <div className="col-md-3 col-sm-6 col-6 mt-4">
                             <ul>
-                                <li>
-                                    <Link to="/">Terms & condition</Link>
-                                </li>
+
                                 <li>
                                     <Link to="/privacypolicy">Privacy Policy </Link>
+                                </li>
+                                <li>
+                                    <Link to="/refundpolicy">Refund Policy </Link>
                                 </li>
 
                                 <li>
