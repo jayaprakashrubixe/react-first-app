@@ -68,11 +68,9 @@ function Footer() {
                                     <Link to="/">Terms & condition</Link>
                                 </li>
                                 <li>
-                                    <Link to="/aboutus">Privacy</Link>
+                                    <Link to="/privacypolicy">Privacy Policy </Link>
                                 </li>
-                                <li>
-                                    <Link to="/contactus">Policy</Link>
-                                </li>
+
                                 <li>
                                     <Link to="/blog">Support</Link>
                                 </li>

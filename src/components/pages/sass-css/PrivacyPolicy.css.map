@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAQA,AAAA,aAAa,CAAC;EACV,UAAU,EAAE,KAAK;CAGpB",
+    "sources": [
+        "PrivacyPolicy.scss",
+        "commonfile.scss"
+    ],
+    "names": [],
+    "file": "PrivacyPolicy.css"
+}
