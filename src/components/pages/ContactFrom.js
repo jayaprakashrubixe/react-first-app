@@ -62,7 +62,7 @@ class ContactFrom extends Component {
         this.setState({ status: "Sending" });
         axios({
             method: "POST",
-            url: "https://d43fc64e4805.ngrok.io/contact_form",
+            url: "https://gcredo.herokuapp.com/contact_form",
             data: this.state,
         }).then((response) => {
 
